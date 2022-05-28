@@ -24,3 +24,10 @@ This chapter made it clear to me that copyright laws are much more important tha
 ![Screenshot (975)](https://user-images.githubusercontent.com/44063772/170814488-7638207a-ce03-4d8b-8acf-b5a96ea269b5.png)
 ![Screenshot (976)](https://user-images.githubusercontent.com/44063772/170814491-779786b2-c407-4527-8639-1f6908f54fae.png)
 ![Screenshot (977)](https://user-images.githubusercontent.com/44063772/170814495-1a272254-b972-4415-b811-12b9d3704ab9.png)
+
+## Regex Crossword
+![Screenshot (978)](https://user-images.githubusercontent.com/44063772/170814872-6b687990-e986-4380-8024-e68b73a74095.png)
+![Screenshot (979)](https://user-images.githubusercontent.com/44063772/170814876-7e065160-8689-45b3-ada8-99ec755f0c8c.png)
+![Screenshot (980)](https://user-images.githubusercontent.com/44063772/170814882-62d1fb55-235a-42cf-bcbe-cba1bdfa4a7a.png)
+![Screenshot (981)](https://user-images.githubusercontent.com/44063772/170814883-c7ce236e-1cac-4325-84b8-a5b7e58d2cf6.png)
+
