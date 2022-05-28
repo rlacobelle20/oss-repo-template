@@ -13,3 +13,14 @@ This chapter made it clear to me that copyright laws are much more important tha
 
 ## man tree
 ![image](https://user-images.githubusercontent.com/44063772/170739973-f2c44b71-29bc-4d56-9e58-1cd222c11f13.png)
+
+## Regex Practice
+![Screenshot (969)](https://user-images.githubusercontent.com/44063772/170814464-ef17edac-13d7-4d47-86f1-b5e76a13df58.png)
+![Screenshot (970)](https://user-images.githubusercontent.com/44063772/170814469-29fb92ca-c960-4eae-8cd8-3a454a5f2a0e.png)
+![Screenshot (971)](https://user-images.githubusercontent.com/44063772/170814474-ae70b2b2-25d5-4be8-8d7b-2f5e6d220631.png)
+![Screenshot (972)](https://user-images.githubusercontent.com/44063772/170814479-582aaf9d-154c-406c-9a53-6ff346c15bef.png)
+![Screenshot (973)](https://user-images.githubusercontent.com/44063772/170814481-a1b7854e-10bb-4c06-90c5-b4a3637668fb.png)
+![Screenshot (974)](https://user-images.githubusercontent.com/44063772/170814483-b4e58452-cc70-40e8-9592-1a0cff36825d.png)
+![Screenshot (975)](https://user-images.githubusercontent.com/44063772/170814488-7638207a-ce03-4d8b-8acf-b5a96ea269b5.png)
+![Screenshot (976)](https://user-images.githubusercontent.com/44063772/170814491-779786b2-c407-4527-8639-1f6908f54fae.png)
+![Screenshot (977)](https://user-images.githubusercontent.com/44063772/170814495-1a272254-b972-4415-b811-12b9d3704ab9.png)
