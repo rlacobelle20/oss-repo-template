@@ -31,3 +31,8 @@ This chapter made it clear to me that copyright laws are much more important tha
 ![Screenshot (980)](https://user-images.githubusercontent.com/44063772/170814882-62d1fb55-235a-42cf-bcbe-cba1bdfa4a7a.png)
 ![Screenshot (981)](https://user-images.githubusercontent.com/44063772/170814883-c7ce236e-1cac-4325-84b8-a5b7e58d2cf6.png)
 
+## Snap Project
+### Basic -- Chases Mouse-pointer, ends when mouse-pointer is touched
+https://snap.berkeley.edu/snap/snap.html
+![image](https://user-images.githubusercontent.com/44063772/171052259-efa5023e-cca9-4ad1-a014-39afc3f816ed.png)
+
