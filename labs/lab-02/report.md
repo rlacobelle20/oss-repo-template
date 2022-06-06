@@ -7,3 +7,6 @@ Forked Spoon-Knife: https://github.com/rlacobelle20/Spoon-Knife
 
 ##Introduction Sequence:
 ![Screenshot (992)](https://user-images.githubusercontent.com/44063772/172160197-8df7746b-2cbe-41d1-8ff0-7055250c6eda.png)
+
+##Part 3:
+PullReq fork: https://github.com/rlacobelle20/PullReq
