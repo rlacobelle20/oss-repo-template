@@ -10,3 +10,7 @@ Forked Spoon-Knife: https://github.com/rlacobelle20/Spoon-Knife
 
 ##Part 3:
 PullReq fork: https://github.com/rlacobelle20/PullReq
+
+git diff HEAD~1
+
+git tag -l
