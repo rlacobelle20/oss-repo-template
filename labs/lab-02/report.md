@@ -12,5 +12,8 @@ Forked Spoon-Knife: https://github.com/rlacobelle20/Spoon-Knife
 PullReq fork: https://github.com/rlacobelle20/PullReq
 
 git diff HEAD~1
+![Screenshot (993)](https://user-images.githubusercontent.com/44063772/172190370-310f3e43-3f93-44e5-b59b-11ff8a464892.png)
 
 git tag -l
+![Screenshot (994)](https://user-images.githubusercontent.com/44063772/172190401-a14eb74e-94be-4889-9c69-576825f4d652.png)
+
