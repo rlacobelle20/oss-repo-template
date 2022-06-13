@@ -4,22 +4,27 @@
 
 ![Screenshot (995)](https://user-images.githubusercontent.com/44063772/173288054-41ec8ef1-f337-426c-87a9-3ba145ab8abc.png)
 
-# Project: Memcode
+# My Project: Memcode
 ### Number of contributers: 15
 ### Number of lines of Code: 213596 
 ### First Commit: 
+```
 commit c44034e2b47da6668289f076f004984fd7259a61
 Author: lakesare <lakesare@gmail.com>
 Date:   Thu Jul 14 05:39:22 2016 +0500
 
     react router done
+```
 ### Latest Commit:
+```
 commit cf76e63ce7feb637f4533a85da16f4275e162eef (HEAD -> master, origin/master, origin/HEAD)
 Author: Evgenia Karunus <lakesare@gmail.com>
 Date:   Fri May 27 20:39:42 2022 +0200
 
     Update Readme.md
+```
 ### Current Branches:
+```
   remotes/origin/HEAD -> origin/master
   remotes/origin/coauthors
   remotes/origin/collaborators-search-fix
@@ -34,3 +39,6 @@ Date:   Fri May 27 20:39:42 2022 +0200
   remotes/origin/reduxify-notifications
   remotes/origin/set-up-gitpod
   remotes/origin/user-profiles
+```
+
+
