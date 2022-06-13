@@ -4,7 +4,8 @@
 
 ![Screenshot (995)](https://user-images.githubusercontent.com/44063772/173288054-41ec8ef1-f337-426c-87a9-3ba145ab8abc.png)
 
-# My Project: Memcode
+# My Project: memcode
+[memcode repo](https://github.com/lakesare/memcode)
 ### Number of contributers: 15
 ### Number of lines of Code: 213596 
 ### First Commit: 
