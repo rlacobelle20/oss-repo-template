@@ -136,3 +136,32 @@ congestion
 multiple-routes
 proxy-routes-stops
 ```
+# Part 4.3
+## Compare results:
+The results were very similar besides from a few differences. When I looked up the amount of lines, I found 213596 lines of code. I believe this includes lines of code that were added and deleted in total. In the html file, it says 84026 (510407 added, 426381 removed.) The number of authors is also different. I put down 15 but the html file says 18. The first commit and day created are very close. The first commit is a day after the repository was made.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <title>GitStats - memcode</title>
+        <link rel="stylesheet" href="gitstats.css" type="text/css">
+        <meta name="generator" content="GitStats 2022-06-13">
+        <script type="text/javascript" src="sortable.js"></script>
+</head>
+<body>
+<h1>GitStats - memcode</h1>
+<div class="nav">
+<ul>
+<li><a href="index.html">General</a></li>
+<li><a href="activity.html">Activity</a></li>
+<li><a href="authors.html">Authors</a></li>
+<li><a href="files.html">Files</a></li>
+<li><a href="lines.html">Lines</a></li>
+<li><a href="tags.html">Tags</a></li>
+</ul>
+</div>
+<dl><dt>Project name</dt><dd>memcode</dd><dt>Generated</dt><dd>2022-06-13 11:52:46 (in 20 seconds)</dd><dt>Generator</dt><dd><a href="http://gitstats.sourceforge.net/">GitStats</a> (version 2022-06-13), git version 2.25.1, gnuplot 5.2 patchlevel 8</dd><dt>Report Period</dt><dd>2016-07-13 20:39:22 to 2022-05-27 14:39:42</dd><dt>Age</dt><dd>2144 days, 304 active days (14.18%)</dd><dt>Total Files</dt><dd>514</dd><dt>Total Lines of Code</dt><dd>84026 (510407 added, 426381 removed)</dd><dt>Total Commits</dt><dd>990 (average 3.3 commits per active day, 0.5 per all days)</dd><dt>Authors</dt><dd>18 (average 55.0 commits per author)</dd></dl></body>
+</html>
+```
