@@ -4,9 +4,9 @@
 
 ![Screenshot (995)](https://user-images.githubusercontent.com/44063772/173288054-41ec8ef1-f337-426c-87a9-3ba145ab8abc.png)
 
-# Project:
-### Number of contributers:
-### Number of lines of Code:
+# Project: Memcode
+### Number of contributers: 15
+### Number of lines of Code: 
 ### First Commit:
 ### Latest Commit:
 ### Current Branches:
