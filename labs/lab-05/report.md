@@ -20,5 +20,8 @@
 ![Screenshot (1013)](https://user-images.githubusercontent.com/44063772/174460887-a9787243-f773-4f16-90a5-72275c8d79ca.png)
 
 ## Step 4
+![Screenshot (1015)](https://user-images.githubusercontent.com/44063772/174460920-433202de-9af1-430a-8da9-679204a00fd0.png)
+![Screenshot (1016)](https://user-images.githubusercontent.com/44063772/174460924-65c5e9a4-cc02-4b41-aa7e-0ec14bfb7650.png)
+![Screenshot (1017)](https://user-images.githubusercontent.com/44063772/174460929-fe7489d8-2c2d-4cf8-8e16-c37d9f95c08f.png)
 
 ## Step 5
