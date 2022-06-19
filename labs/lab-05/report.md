@@ -12,8 +12,12 @@
 ![Screenshot (1004)](https://user-images.githubusercontent.com/44063772/174460789-58cb79f7-aed7-47e3-88b3-56f08d5f8bde.png)
 ![Screenshot (1009)](https://user-images.githubusercontent.com/44063772/174460805-692b4c92-6de8-46db-b907-635a66a10416.png)
 ![Screenshot (1010)](https://user-images.githubusercontent.com/44063772/174460806-0ca771ce-9145-4367-ad7c-6edae9a285f7.png)
+![Screenshot (1011)](https://user-images.githubusercontent.com/44063772/174460842-60b7331e-53b6-465d-ab8c-156e1f508700.png)
 
 ## Step 3
+![Screenshot (1012)](https://user-images.githubusercontent.com/44063772/174460878-5c95edc5-91a2-403c-b3d7-82ff92f7bca6.png)
+![Screenshot (1014)](https://user-images.githubusercontent.com/44063772/174460882-0b21aff7-77bf-4405-bd92-2c62a6a26b1a.png)
+![Screenshot (1013)](https://user-images.githubusercontent.com/44063772/174460887-a9787243-f773-4f16-90a5-72275c8d79ca.png)
 
 ## Step 4
 
