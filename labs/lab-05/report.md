@@ -33,47 +33,36 @@
 # Makefile
 ## Self-created Makefile
 ```
-all: program1 program2
-
-clean:
-        rm program1 program2 program1.o program2.o program2.o statlib.a sharlib.so dynamic_block.o static_block.o
-
-program1: program1.o
-        cc program1.o statlib.a -o program1 -Wl,-rpath=/home/lacobr/CSCI-4470-OpenSource/Modules/05.BuildSystems/Lab-BuildSystemsExample/source
-
-program2: program2.o
-        cc program2.o sharlib.so -o program2 -Wl,-rpath=/home/lacobr/CSCI-4470-OpenSource/Modules/05.BuildSystems/Lab-BuildSystemsExample/source
-
-program1.o: program.c
-        cc -c program.c -o program1.o
-
-program2.o: program.c
-        cc -c program.c -o program2.o
-
-statlib.a: static_block.o
-        cc -static -o statlib.a static_block.o
-
-sharlib.so: dynamic_block.o
-        cc -shared -o sharlib.so dynamic_block.o
-
-dynamic_block.o: program2.o
-        cc -fPIC -c program2.o -o program2.o
-
-static_block.o: program1.o
-        cc -fPIC -c program1.o -o program1.o
+all:
+        gcc -c source/block.c -o build/static_block
+        gcc -c --shared source/block.c -o build/dynamic_block
+        gcc program.c build/static_block -o build/static.out
+        gcc program.c build/dynamic_block -o build/dynamic.out
 ```
-![Screenshot (1023)](https://user-images.githubusercontent.com/44063772/174692618-1652155d-6c81-42aa-bedb-895f1426b36e.png)
+![Screenshot (1026)](https://user-images.githubusercontent.com/44063772/174710534-4fa3c44d-46ff-468d-af33-3200fb8015eb.png)
+
 
 ## CMakeLists.txt
 ```
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required (VERSION 3.2)
+#set project name
+project(CMake Example)
 
-# set the project name
-project(CMake Makefile)
+add_library(static_block STATIC source/block.c)
+add_library(dynamic_block SHARED source/block.c)
 
-# add the executable
-add_executable(program program.c)
+add_executable(static_cmake static_block program.c)
+add_executable(dynamic_cmake dynamic_block program.c)
+
+target_link_libraries(static_cmake LINK_PUBLIC static_block)
+target_link_libraries(dynamic_cmake LINK_PUBLIC dynamic_block)
+
+```
+## CMake Makefile
 ```
 
-![image](https://user-images.githubusercontent.com/44063772/174694525-72cac81e-c2aa-4c9f-9123-a42b2a9b58b6.png)
+```
+![Screenshot (1025)](https://user-images.githubusercontent.com/44063772/174710547-d1d43df5-97c6-4f08-8abf-b55953100f20.png)
+
+
 
