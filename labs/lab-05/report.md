@@ -60,9 +60,10 @@ target_link_libraries(dynamic_cmake LINK_PUBLIC dynamic_block)
 ```
 ## CMake Makefile
 ```
-
+does not output
 ```
 ![Screenshot (1025)](https://user-images.githubusercontent.com/44063772/174710547-d1d43df5-97c6-4f08-8abf-b55953100f20.png)
+![image](https://user-images.githubusercontent.com/44063772/174711539-155f732b-7aa4-47a2-a008-3780ec14f97c.png)
 
 
 
