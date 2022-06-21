@@ -29,3 +29,37 @@
 ![Screenshot (1019)](https://user-images.githubusercontent.com/44063772/174460979-9a6ce572-bd65-4a2a-a993-86b320d45ef0.png)
 ![Screenshot (1020)](https://user-images.githubusercontent.com/44063772/174460981-5a27ff3d-78bb-4be6-9d0c-d85e9a4b3e6e.png)
 ![Screenshot (1021)](https://user-images.githubusercontent.com/44063772/174460984-920b3a8c-6ad0-4ab2-918d-d52ae82a5aac.png)
+
+# Makefile
+## Self-created Makefile
+```
+all: program1 program2
+
+clean:
+        rm program1 program2 program1.o program2.o program2.o statlib.a sharlib.so dynamic_block.o static_block.o
+
+program1: program1.o
+        cc program1.o statlib.a -o program1 -Wl,-rpath=/home/lacobr/CSCI-4470-OpenSource/Modules/05.BuildSystems/Lab-BuildSystemsExample/source
+
+program2: program2.o
+        cc program2.o sharlib.so -o program2 -Wl,-rpath=/home/lacobr/CSCI-4470-OpenSource/Modules/05.BuildSystems/Lab-BuildSystemsExample/source
+
+program1.o: program.c
+        cc -c program.c -o program1.o
+
+program2.o: program.c
+        cc -c program.c -o program2.o
+
+statlib.a: static_block.o
+        cc -static -o statlib.a static_block.o
+
+sharlib.so: dynamic_block.o
+        cc -shared -o sharlib.so dynamic_block.o
+
+dynamic_block.o: program2.o
+        cc -fPIC -c program2.o -o program2.o
+
+static_block.o: program1.o
+        cc -fPIC -c program1.o -o program1.o
+```
+![Screenshot (1023)](https://user-images.githubusercontent.com/44063772/174692618-1652155d-6c81-42aa-bedb-895f1426b36e.png)
