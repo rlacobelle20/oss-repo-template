@@ -63,3 +63,17 @@ static_block.o: program1.o
         cc -fPIC -c program1.o -o program1.o
 ```
 ![Screenshot (1023)](https://user-images.githubusercontent.com/44063772/174692618-1652155d-6c81-42aa-bedb-895f1426b36e.png)
+
+## CMakeLists.txt
+```
+cmake_minimum_required(VERSION 3.10)
+
+# set the project name
+project(CMake Makefile)
+
+# add the executable
+add_executable(program program.c)
+```
+
+![image](https://user-images.githubusercontent.com/44063772/174694525-72cac81e-c2aa-4c9f-9123-a42b2a9b58b6.png)
+
