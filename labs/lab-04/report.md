@@ -14,6 +14,7 @@ Microsoft .NET uses a MIT license. MIT license is very basic, the only requireme
 [Microsoft .NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
 
 ## 7. As a table (group of 3-5 students), make up an open source project and a business model that you could use to make money from it.
+[AWorSe Repository](https://github.com/charlestian23/AWorSe)
 
 ## 8. Take 5 projects from past RCOS Projects and create a table for which project has which license.
 
