@@ -6,7 +6,16 @@ It is important because without a license, you don't know what you can or can't 
 
 ## 5. Read the Failure to follow the Open System Model Section of Why the Web beat Gopher.
 ### Do you agree with this claim? 
-I do agree that open system models can take on two interrelated parts: open communications standards and open source software. The "open communications standards" allows for developers to effective communicate with eachother about what they want in the code, so everyones contribution has a common ground. Without this, the code could have too many ideas and no real goal, making the final product a useless and chaotic mess. A code being "open source software" allows for others outside of the original set of developers to look at and contribute to the code. This gains more popularity for the software and garners the attention of potential users/developers. 
+I do agree that open system models can take on two interrelated parts: open communications standards and open source software. The "open communications standards" allows for developers to effective communicate with eachother about what they want in the code, so everyones contribution has a common ground. Without this, the code could have too many ideas and no real goal, making the final product a useless and chaotic mess. A code being "open source software" allows for others outside of the original set of developers to look at and contribute to the code. This gains more popularity for the software and garners the attention of potential users/developers.
+
+## 6. Android uses the Apache license 2.0 and it's kernel uses GPL v2, Linux uses the GPL v2 license, Microsoft .NET Core uses MIT license, SailfishOS is not open source
+### Can you justify why such a license is chosen based on the history, goals and philosophy of the project? (Justification for ONE choice is enough, but be specific and make sure you provide references to articles or web resources). 
+Microsoft .NET uses a MIT license. MIT license is very basic, the only requirements being the preservation of copyright and license notices. This allows for licensed works, modifications, and larger works to be distributed under different terms and without source code. Microsoft .NET is a cross-platform, open source developer platform for building different types of applications. Microsoft .NET has a set standard of base classes/libraries used across all platforms. Since this code requires helps people with their own projects, it makes sense that it was given the MIT license. Microsoft .NET runs off of people being able to use the own code for their own projects, meaning it needs to allow modifications, licensed works, and larger works to be allowed to mkae use of it. Since Microsoft .NET is supposed to aid development, the creators wanted it to be as easy as possible for its user base to be able to create what they want/need to create.
+[Microsoft .NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
+
+## 7. As a table (group of 3-5 students), make up an open source project and a business model that you could use to make money from it.
+
+## 8. Take 5 projects from past RCOS Projects and create a table for which project has which license.
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
