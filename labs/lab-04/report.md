@@ -21,10 +21,9 @@ Microsoft .NET uses a MIT license. MIT license is very basic, the only requireme
 | Website                   | License Present | License                                                                                  |
 |---------------------------|-----------------|------------------------------------------------------------------------------------------|
 | [AutoLogin](https://github.com/SeanWaclawik/courseproject)| Yes | MIT License [MIT License Wiki](https://en.wikipedia.org/wiki/MIT_License)|
-|                           |                 |                                                                                          |
 | [Butter Desktop](https://github.com/mattgilman10/butter-desktop) | Yes | [Butterize](https://github.com/mattgilman10/butter-desktop/blob/master/LICENSE.txt)|
 |                           |                 |                                                                                          |
-| [Canary](https://github.com/smaltby/canary) [Spotify API](https://github.com/smaltby/spotify-api-plusplus) | Yes | MIT License --> Both [MIT License Wiki](https://en.wikipedia.org/wiki/MIT_License))))  |
+| [Canary](https://github.com/smaltby/canary) [(Spotify API)](https://github.com/smaltby/spotify-api-plusplus) | Yes | MIT License --> Both [MIT License Wiki](https://en.wikipedia.org/wiki/MIT_License))))  |
 |                           |                 |                                                                                          |
 | [Catan AI](https://github.com/justinchen673/catan-ai) | Yes | MIT License MIT License [MIT License Wiki](https://en.wikipedia.org/wiki/MIT_License) |
 |                           |                 |                                                                                          |
