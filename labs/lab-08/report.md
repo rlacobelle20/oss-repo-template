@@ -22,5 +22,6 @@ What does -VV do? It gives specific outputs for tests.
 
 
 ## Step 4
+![cmake-step5 repo](https://github.com/rlacobelle20/cmake-step5)
 
 ## Step 5
