@@ -26,3 +26,4 @@ What does -VV do? It gives specific outputs for tests.
 Note: could not get to run on my computer
 
 ## Step 5
+Updated wiki
