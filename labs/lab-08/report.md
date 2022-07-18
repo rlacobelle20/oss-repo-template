@@ -17,7 +17,8 @@
 
 
 ## Step 3
-![Screenshot (1048)](https://user-images.githubusercontent.com/44063772/179444758-5f3265fe-bb84-4607-beda-406210281ca6.png)
+![Screenshot (1049)](https://user-images.githubusercontent.com/44063772/179445179-96fdaf15-92d3-4f2a-84a8-a37936aac218.png)
+What does -VV do? It gives specific outputs for tests.
 
 
 ## Step 4
