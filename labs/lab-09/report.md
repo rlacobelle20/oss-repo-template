@@ -124,6 +124,15 @@ docker-compose up
 ![Screenshot (1073)](https://user-images.githubusercontent.com/44063772/180474069-183477cd-700c-412b-b5e1-f9337b569b9f.png)
 ![image](https://user-images.githubusercontent.com/44063772/180474041-c86defa5-8c1e-4bda-a1c3-3b6035e585b3.png)
 ```
-cd -
+switched to git bash terminal
+curl http://localhost:1337/message
+curl -XPOST http://localhost:1337/message?text=hello
+curl -XPOST http://localhost:1337/message?text=hola
+curl http://localhost:1337/message
+curl -XPUT http://localhost:1337/message/5638b363c5cd0825511690bd?text=hey
+curl -XDELETE http://localhost:1337/message/5638b381c5cd0825511690be
 curl http://localhost:1337/message
 ```
+![image](https://user-images.githubusercontent.com/44063772/180475249-d22c00f6-2aab-4265-bd15-fad24b2dc05f.png)
+![image](https://user-images.githubusercontent.com/44063772/180475306-688add34-03f3-487f-b962-090302eee58e.png)
+
