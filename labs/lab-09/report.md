@@ -15,6 +15,15 @@ vim --version
 ![image](https://user-images.githubusercontent.com/44063772/180465877-f3692f21-5a5e-409b-aaba-c74ab1b7f5c8.png)
 
 ## example 02
+```
+docker run --name db -d mongo:3.2 mongod --smallfiles
+docker run --name rocketchat -p 3000:3000 --env ROOT_URL=http://localhost --link db:db -d rocket.chat:0.62
+docker ps
+docker images
+```
+![Screenshot (1061)](https://user-images.githubusercontent.com/44063772/180467373-84d05d69-295c-4fbf-aaa1-249a2a5a17ff.png)
+![image](https://user-images.githubusercontent.com/44063772/180467332-0f5c3e40-8e58-44ed-b1cd-854cf5ee87c6.png)
+
 
 ## example 03
 
