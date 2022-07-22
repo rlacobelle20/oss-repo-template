@@ -26,5 +26,37 @@ docker images
 
 
 ## example 03
+```
+# Comments in Dockerfiles
+FROM python:3.5
+
+# Update and install dependencies
+RUN apt-get update
+RUN pip install Flask
+
+# Add code
+ADD . /opt/webapp/
+
+# Set the working directory
+WORKDIR /opt/webapp
+
+# Set environment variables
+ENV FLASK_APP=hello.py
+
+# Expose the application's port
+EXPOSE 5000
+
+# Run the application
+CMD ["flask", "run", "--host=0.0.0.0"]
+```
+![image](https://user-images.githubusercontent.com/44063772/180468231-679ea139-e0e4-42bf-bef5-2377c079d9cf.png)
+```
+docker build -t hello.py .
+```
+![image](https://user-images.githubusercontent.com/44063772/180469282-973a3a10-cfb3-41d0-a2ca-bd4a8d71c354.png)
+```
+docker run -p 5000:5000 hello.py
+```
+![image](https://user-images.githubusercontent.com/44063772/180469550-f741432b-265f-4c73-a59d-9b3f9f1a0e2c.png)
 
 ## example 04
