@@ -47,6 +47,36 @@
 Moved to next step
 
 ### Part 7
+#### Section 1
+```curl http://127.0.0.1:5984/```
+![image](https://user-images.githubusercontent.com/44063772/181799769-7f627dc4-7a18-4b70-9fff-0a15809078dd.png)
+
+#### Section 2
+```curl -X PUT http://admin:admin@127.0.0.1:5984/albums```
+![image](https://user-images.githubusercontent.com/44063772/181800326-48419477-b121-402b-8706-f4b786739c9a.png)
+```curl -X PUT http://admin:admin@127.0.0.1:5984/albums```
+![image](https://user-images.githubusercontent.com/44063772/181800465-3c34185b-85cb-4a02-b055-309e5098afca.png)
+```curl -vX PUT http://admin:admin@127.0.0.1:5984/albums-backup```
+![image](https://user-images.githubusercontent.com/44063772/181800570-246481e0-dc03-4c0b-8269-5a21018e7d57.png)
+```curl -vX DELETE http://admin:admin@127.0.0.1:5984/albums-backup```
+![image](https://user-images.githubusercontent.com/44063772/181800878-89dc1976-c3eb-4cc2-9a87-d4529ad767e5.png)
+
+#### Section 3
+```curl -X PUT http://admin:admin@127.0.0.1:5984/albums/6e1295ed6c29495e54cc05947f18c8af -d '{"title":"There is Nothing Left to Lose","artist":"Foo Fighters"}'```
+![image](https://user-images.githubusercontent.com/44063772/181801044-0d5d6209-ecfd-4140-b62d-d34d40663ae0.png)
+```curl -X GET http://admin:admin@127.0.0.1:5984/albums/6e1295ed6c29495e54cc05947f18c8af```
+![image](https://user-images.githubusercontent.com/44063772/181801151-81cd9f67-f071-4278-befa-559d4f6e5933.png)
+```curl -X PUT http://admin:admin@127.0.0.1:5984/albums/6e1295ed6c29495e54cc05947f18c8af \ -d '{"title":"There is Nothing Left to Lose","artist":"Foo Fighters","year":"1997"}'```
+![image](https://user-images.githubusercontent.com/44063772/181801304-4d48299b-aa76-449d-af51-653384320328.png)
+```curl -X PUT http://admin:admin@127.0.0.1:5984/albums/6e1295ed6c29495e54cc05947f18c8af \ -d '{"_rev":"1-2902191555","title":"There is Nothing Left to Lose","artist":"Foo Fighters","year":"1997"}'```
+![image](https://user-images.githubusercontent.com/44063772/181801541-1b2fe591-2691-4418-9514-6ab5f9893a8e.png)
+```curl -vX PUT http://admin:admin@127.0.0.1:5984/albums/70b50bfa0a4b3aed1f8aff9e92dc16a0 \ -d '{"title":"Blackened Sky","artist":"Biffy Clyro","year":2002}'```
+![image](https://user-images.githubusercontent.com/44063772/181801744-3443dd09-db49-4188-8f95-f2ff334a2ed0.png)
+```curl -vX PUT http://admin:admin@127.0.0.1:5984/albums/6e1295ed6c29495e54cc05947f18c8af/artwork.jpg?rev=2-2739352689 \ --data-binary @artwork.jpg -H "Content-Type:image/jpg"```
+![image](https://user-images.githubusercontent.com/44063772/181801944-0089a6bd-eed7-4cd3-95ff-d9cddb9512d1.png)
+```curl http://admin:admin@127.0.0.1:5984/albums/6e1295ed6c29495e54cc05947f18c8af```
+![image](https://user-images.githubusercontent.com/44063772/181802179-3ad18829-7d52-4b6e-a0be-c0947941e36b.png)
+#### Section 4
 
 ## Step 3
 
