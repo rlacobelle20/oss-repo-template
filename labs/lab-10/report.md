@@ -4,6 +4,7 @@
 
 ## Step 2
 ### Part 1
+### Part 2
 ```curl http://127.0.0.1:5984/```
 ![image](https://user-images.githubusercontent.com/44063772/181789339-bfc27fb1-20ba-4970-b057-ea98952aeb0a.png)
 ``` http://admin:admin@127.0.0.1:5984/_all_dbs```
@@ -22,15 +23,20 @@
 ![image](https://user-images.githubusercontent.com/44063772/181796119-fd6cdf0b-1046-4f7c-8169-557b95d44389.png)
 ```curl -X GET http://admin:admin@127.0.0.1:5984/_all_dbs```
 ![image](https://user-images.githubusercontent.com/44063772/181796241-aff19fe3-74bd-45e6-906c-9f3261bbddce.png)
-### Part 2
+### Part 3
 ```http://127.0.0.1:5984/_utils/```
 ![image](https://user-images.githubusercontent.com/44063772/181796528-c93f8db6-b52b-4c61-a2b8-8944ba47a6e3.png)
 ![image](https://user-images.githubusercontent.com/44063772/181797223-2a96b2c7-4220-4712-8400-0b21941a7ec8.png)
-### Part 3
+### Part 4
 ![image](https://user-images.githubusercontent.com/44063772/181797890-411812e3-ba29-4787-ac68-c9993ace7b91.png)
 ![image](https://user-images.githubusercontent.com/44063772/181798504-3b74b7df-6af1-4fbb-a885-c9d86ba537f8.png)
 ![image](https://user-images.githubusercontent.com/44063772/181798583-2dd5a27c-c587-4ac4-995e-7fa66d58b1b7.png)
-### Part 4
+### Part 5
+![image](https://user-images.githubusercontent.com/44063772/181798986-9dc43e33-15c2-439e-b799-2968af032ae3.png)
+![image](https://user-images.githubusercontent.com/44063772/181799030-5247a125-3fed-412d-8c6e-47b4491d44ec.png)
+![image](https://user-images.githubusercontent.com/44063772/181799081-7811541a-e0ac-4c31-b758-490e91fcc8a4.png)
+![image](https://user-images.githubusercontent.com/44063772/181799141-43b0023b-833e-440e-9781-9507d904605b.png)
+### Part 6
 
 ## Step 3
 
