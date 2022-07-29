@@ -46,6 +46,8 @@
 ### Part 6
 Moved to next step
 
+## Step 3
+
 ### Part 7
 #### Section 1
 ```curl http://127.0.0.1:5984/```
@@ -77,7 +79,5 @@ Moved to next step
 ```curl http://admin:admin@127.0.0.1:5984/albums/6e1295ed6c29495e54cc05947f18c8af```
 ![image](https://user-images.githubusercontent.com/44063772/181802179-3ad18829-7d52-4b6e-a0be-c0947941e36b.png)
 #### Section 4
-
-## Step 3
 
 ## Step 4
