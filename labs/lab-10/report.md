@@ -79,5 +79,9 @@ Moved to next step
 ```curl http://admin:admin@127.0.0.1:5984/albums/6e1295ed6c29495e54cc05947f18c8af```
 ![image](https://user-images.githubusercontent.com/44063772/181802179-3ad18829-7d52-4b6e-a0be-c0947941e36b.png)
 #### Section 4
-
+```curl -X PUT http://admin:admin@127.0.0.1:5984/albums-replica```
+![image](https://user-images.githubusercontent.com/44063772/182038781-37c0c3df-03c2-4b3e-b802-61fa131a2c2d.png)
+```curl -vX POST http://admin:admin@127.0.0.1:5984/_replicate \
+     -d '{"source":"http://127.0.0.1:5984/albums","target":"http://127.0.0.1:5984/albums-replica"}' \
+     -H "Content-Type: application/json"```
 ## Step 4
