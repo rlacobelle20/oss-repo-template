@@ -81,7 +81,49 @@ Moved to next step
 #### Section 4
 ```curl -X PUT http://admin:admin@127.0.0.1:5984/albums-replica```
 ![image](https://user-images.githubusercontent.com/44063772/182038781-37c0c3df-03c2-4b3e-b802-61fa131a2c2d.png)
-```curl -vX POST http://admin:admin@127.0.0.1:5984/_replicate \
-     -d '{"source":"http://127.0.0.1:5984/albums","target":"http://127.0.0.1:5984/albums-replica"}' \
-     -H "Content-Type: application/json"```
+
 ## Step 4
+```
+curl -X POST admin:admin@localhost:5984/movie-example/_find -d '{
+   "selector": {
+      "year": {
+         "$gt": 1987
+    }
+  }
+}' -H 'Content-Type: application/json'
+```
+![image](https://user-images.githubusercontent.com/44063772/182058950-83610eec-579f-48db-b507-2dc8be003fe2.png)
+```
+curl -X POST admin:admin@localhost:5984/movie-example/_find -d '{
+   "selector": {
+      "title": {
+         "$gt": "L"
+    }
+  }
+}' -H 'Content-Type: application/json'
+```
+![image](https://user-images.githubusercontent.com/44063772/182059094-0a0220cd-86a1-47c5-aadb-fe60ca6ac966.png)
+```
+curl -X POST admin:admin@localhost:5984/hello-world/_index -d '{
+   "index": {
+      "fields": [
+         "title"
+      ]
+   },
+   "name": "title-json-index",
+   "type": "json"
+}' -H 'Content-Type: application/json'
+```
+![image](https://user-images.githubusercontent.com/44063772/182059207-a052d7ed-1615-4642-81d4-ea02d7bba4a7.png)
+```
+curl -X POST admin:admin@localhost:5984/movie-example/_find -d '{
+   "selector": {
+      "title": {
+         "$gt": "L"
+    }
+  }
+}' -H 'Content-Type: application/json'
+```
+![Screenshot (1123)](https://user-images.githubusercontent.com/44063772/182059801-0f0e574c-36a8-4d26-8f80-ab2dfe60dd3f.png)
+
+
