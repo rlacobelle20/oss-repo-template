@@ -225,4 +225,22 @@ plt.show()
 
 
 ## Checkpoint 3
+![brown_cardigan](https://user-images.githubusercontent.com/44063772/183512352-4ded275b-758f-4675-a8e3-778519aac0f8.jpg)
+```
+python3
+from PIL import Image
+import numpy
+im = Image.open("/mnt/c/Users/lacobr/Pictures/brown_cardigan.jpg")
+np_im = numpy.array(im)
+print(np_im.shape)
+``` 
+![image](https://user-images.githubusercontent.com/44063772/183522008-25c951e6-6357-44bb-b5e5-04006775326c.png)
+![image](https://user-images.githubusercontent.com/44063772/183525967-53859fa6-ef00-4cce-9f37-a19864f054f0.png)
+![image](https://user-images.githubusercontent.com/44063772/183526049-0d52a28c-bd56-4d99-91c4-533d87d947c3.png)
+![image](https://user-images.githubusercontent.com/44063772/183526274-37f0efa1-28fc-4126-989e-c505b4135fec.png)
+
+![long_skirt](https://user-images.githubusercontent.com/44063772/183526580-4162c9d7-c5ea-4b66-ba27-795e182f86de.jpg)
+
+
+
 
