@@ -224,5 +224,5 @@ plt.show()
 ![image](https://user-images.githubusercontent.com/44063772/183342633-11aa40c2-2b20-4549-9310-4d3a17ec4d77.png)
 
 
+## Checkpoint 3
 
-## CHeckpoint 3
