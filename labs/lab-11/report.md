@@ -207,5 +207,22 @@ np.argmax(predictions_single[0])
 ```
 ![image](https://user-images.githubusercontent.com/44063772/183342313-d9234cc9-efe2-499a-9517-2195ea2fc774.png)
 
+```
+# Plot the first X test images, their predicted label, and the true label
+# Color correct predictions in blue, incorrect predictions in red
+num_rows = 5
+num_cols = 3
+num_images = num_rows*num_cols
+plt.figure(figsize=(2*2*num_cols, 2*num_rows))
+for i in range(num_images):
+  plt.subplot(num_rows, 2*num_cols, 2*i+1)
+  plot_image(i, predictions, test_labels, test_images)
+  plt.subplot(num_rows, 2*num_cols, 2*i+2)
+  plot_value_array(i, predictions, test_labels)
+plt.show()
+```
+![image](https://user-images.githubusercontent.com/44063772/183342633-11aa40c2-2b20-4549-9310-4d3a17ec4d77.png)
+
+
 
 ## CHeckpoint 3
