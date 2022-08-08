@@ -225,6 +225,7 @@ plt.show()
 
 
 ## Checkpoint 3
+### Brown Cardigan
 ![brown_cardigan](https://user-images.githubusercontent.com/44063772/183512352-4ded275b-758f-4675-a8e3-778519aac0f8.jpg)
 ```
 python3
@@ -239,8 +240,35 @@ print(np_im.shape)
 ![image](https://user-images.githubusercontent.com/44063772/183526049-0d52a28c-bd56-4d99-91c4-533d87d947c3.png)
 ![image](https://user-images.githubusercontent.com/44063772/183526274-37f0efa1-28fc-4126-989e-c505b4135fec.png)
 
+### Long Skirt
 ![long_skirt](https://user-images.githubusercontent.com/44063772/183526580-4162c9d7-c5ea-4b66-ba27-795e182f86de.jpg)
+```
+python3
+from PIL import Image
+import numpy
+im = Image.open("/mnt/c/Users/lacobr/Pictures/long_skirt.jpg")
+np_im = numpy.array(im)
+print(np_im.shape)
+``` 
+![image](https://user-images.githubusercontent.com/44063772/183526711-c0a2e7a9-03c0-47a9-871b-b2aa0ca8cf97.png)
+![image](https://user-images.githubusercontent.com/44063772/183526888-de2750ba-dd65-4e4d-a75b-76be8cb21be8.png)
+![image](https://user-images.githubusercontent.com/44063772/183526932-602afc62-d348-41cc-bbe7-71fed9570595.png)
+![image](https://user-images.githubusercontent.com/44063772/183526962-fd12ebc7-a2f1-4152-9543-785c61026dc8.png)
 
 
+### Fun Pants
+![fun_pants](https://user-images.githubusercontent.com/44063772/183527061-75cd36d7-4abc-4373-8ab7-8ccd64b43c2c.jpg)
+```
+python3
+from PIL import Image
+import numpy
+im = Image.open("/mnt/c/Users/lacobr/Pictures/fun_pants.jpg")
+np_im = numpy.array(im)
+print(np_im.shape)
+``` 
+![image](https://user-images.githubusercontent.com/44063772/183527153-32833534-66b9-4d47-a0c2-13d32e2760f7.png)
+![image](https://user-images.githubusercontent.com/44063772/183527186-9727034b-43a4-4405-88da-0ba6b23e3289.png)
+![image](https://user-images.githubusercontent.com/44063772/183527210-5652b9b7-26dd-4139-ace4-5453769afd67.png)
+![image](https://user-images.githubusercontent.com/44063772/183527246-c7baf8cd-b6d2-41d9-b520-52b00cba80a3.png)
 
 
